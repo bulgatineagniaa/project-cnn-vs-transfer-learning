@@ -1,0 +1,28 @@
+SUMBER DATASET PROYEK INDIVIDU
+Mata Kuliah: Deep Learning / Pembelajaran Mesin 2
+
+1. Dataset Eksperimen 1 (CNN from Scratch)
+
+   Nama Dataset : CIFAR-10 Dataset (Subset Binary Classification)
+
+   Sumber URL : https://www.cs.toronto.edu/~kriz/cifar.html
+
+   Metode Akses : Unduhan otomatis melalui TensorFlow menggunakan `tf.keras.datasets.cifar10`
+
+---
+
+2. Dataset Eksperimen 2 (Transfer Learning)
+
+   Nama Dataset : Cats and Dogs Filtered Dataset
+
+   Sumber URL : https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip
+
+   Metode Akses : Unduhan otomatis menggunakan `tf.keras.utils.get_file()` pada Google Colab, kemudian diekstrak ke direktori kerja untuk proses pelatihan model MobileNetV2.
+
+---
+
+Keterangan:
+
+* Dataset CIFAR-10 digunakan pada eksperimen CNN from Scratch untuk melakukan klasifikasi citra.
+* Dataset Cats and Dogs Filtered digunakan pada eksperimen Transfer Learning dengan memanfaatkan pretrained model MobileNetV2.
+* Seluruh dataset diperoleh dari sumber resmi dan diakses secara otomatis menggunakan library TensorFlow.
